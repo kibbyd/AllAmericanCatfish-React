@@ -1,0 +1,23 @@
+/* Header area */
+.header {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,9,121,0.9893091025472689) 44%, rgba(45,62,79,1) 100%);
+    padding: 10px 10px 10px 10px;
+}
+
+/* Navbar */
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        height: 30px;
+    }
+}
+
+/* DropDown menu links */
+.navbar-expand-md .navbar-nav .nav-link {
+    font-size: 25px;
+}
+
+/* DropDown menu items */
+.dropdown-item {
+    font-size: 25px;
+}
